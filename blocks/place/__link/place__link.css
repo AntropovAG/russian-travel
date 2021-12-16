@@ -6,3 +6,8 @@
   text-decoration-line: underline;
   color: inherit;
 }
+
+
+.place__link:hover {
+  cursor: pointer;
+}
