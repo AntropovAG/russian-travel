@@ -1,5 +1,4 @@
 .cover__background {
-  max-width: 100%;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -9,4 +8,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-decoration: none;
+  color: inherit;
+}
+
+.cover__background::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  z-index: 1;
+  }
+
+.cover__background:hover::before {
+  opacity: .8;
+  z-index: 1;
+  cursor: url(/images/Pointer.png), pointer;
 }

@@ -11,5 +11,5 @@
 
 
 .place__link:hover {
-  cursor: pointer;
+  cursor: url(/images/Pointer.png), pointer;
 }

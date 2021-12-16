@@ -12,4 +12,5 @@
 
 .header__lang-link:hover {
   text-decoration: underline;
+  cursor: url(/images/Pointer.png), pointer;
 }

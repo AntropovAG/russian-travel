@@ -1,6 +1,7 @@
 .footer {
   max-width: 90%;
-  margin: 92px auto 24px;
+  margin: 0 auto;
+  padding: 92px 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
