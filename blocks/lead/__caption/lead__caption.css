@@ -6,4 +6,6 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   align-self: flex-start;
+  padding: 0;
+  margin-top: 8px;
 }
