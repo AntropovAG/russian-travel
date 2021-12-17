@@ -2,11 +2,16 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.12;
   color: inherit;
   text-decoration: none;
   padding-right: 18px;
 }
+
+.footer__link:last-of-type {
+  padding-right: 0;
+}
+
 
 .footer__link:hover {
   cursor: url(/images/Pointer.png), pointer;

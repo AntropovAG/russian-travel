@@ -22,9 +22,11 @@
   background-color: #2A2C2F;
   opacity: .3;
   z-index: 1;
+  transition: opacity .3s;
   }
 
 .cover__background:hover::before {
+  transition: opacity .5s;
   opacity: .8;
   z-index: 1;
   cursor: url(/images/Pointer.png), pointer;
