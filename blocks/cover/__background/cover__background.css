@@ -6,7 +6,7 @@
   background-image: url(/images/cover-trains.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-decoration: none;
   color: inherit;
 }
