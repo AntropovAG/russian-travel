@@ -8,3 +8,19 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 928px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 auto
+  }
+}

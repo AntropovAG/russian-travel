@@ -11,5 +11,6 @@
 
 
 .place__link:hover {
-  cursor: url(/images/Pointer.png), pointer;
+  transition: opacity .5s;
+  opacity: .8;
 }

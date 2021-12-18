@@ -3,3 +3,23 @@
   min-height: 615px;
   margin: 64px auto 0;
 }
+
+@media screen and (max-width: 1184px) {
+  .lead__image {
+    min-height: 580px;
+    margin: 56px auto 0;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__image {
+    min-height: 200px;
+    margin-top: 40px;
+  }
+}

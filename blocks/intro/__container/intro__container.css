@@ -4,3 +4,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 928px) {
+  .intro__container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro__container {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}

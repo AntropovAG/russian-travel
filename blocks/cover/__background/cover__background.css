@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -29,5 +29,22 @@
   transition: opacity .5s;
   opacity: .8;
   z-index: 1;
-  cursor: url(/images/Pointer.png), pointer;
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }

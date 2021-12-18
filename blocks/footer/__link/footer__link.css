@@ -14,5 +14,18 @@
 
 
 .footer__link:hover {
-  cursor: url(/images/Pointer.png), pointer;
+  transition: opacity .5s;
+  opacity: .8;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    padding: 0 0 32px 0;
+  }
+
+  .footer__link:last-of-type {
+    padding: 0;
+  }
 }

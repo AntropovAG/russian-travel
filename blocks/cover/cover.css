@@ -5,3 +5,23 @@
   position: relative;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .cover {
+    max-width: 768px;
+    padding: 90px 0 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    max-width: 320px;
+    padding: 66px 0 0;
+  }
+}

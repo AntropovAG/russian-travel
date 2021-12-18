@@ -3,3 +3,23 @@
   margin: 0 auto;
   padding: 92px 0 0;
 }
+
+@media screen and (max-width: 1184px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .places {
+    max-width: 720px;
+    padding: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places {
+    max-width: 320px;
+    padding: 64px 0 0;
+  }
+}

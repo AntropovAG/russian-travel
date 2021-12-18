@@ -5,3 +5,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1184px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 0 0;
+  }
+}

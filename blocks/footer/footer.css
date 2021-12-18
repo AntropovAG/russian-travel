@@ -6,3 +6,27 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1184px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    max-width: 186px;
+    padding-top: 64px;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 16px;
+    align-items: flex-start;
+  }
+}

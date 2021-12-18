@@ -10,13 +10,14 @@
   align-self: flex-end;
 }
 
-.header__lang-link:hover {
-  text-decoration: underline;
-  cursor: url(/images/Pointer.png), pointer;
+.header__lang-link:hover{
+  transition: opacity .5s;
+  opacity: .8;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-  cursor: url(/images/Pointer.png), pointer;
+@media screen and (max-width: 720px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
-

@@ -4,3 +4,10 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 720px) {
+  .place__website {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}
