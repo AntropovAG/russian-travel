@@ -1,29 +1,24 @@
-# Проект: Путешествие по России
+# Project "Russian travel"
 
-## Цель Проекта:
-1. Осуществить вёрстку Проекта используя макет;
-2. Использовать ранее изученные темы и приёмы;
-3. Научиться применять медиазапросы для создания адаптивного сайта;
-4. ***Получить удовольствие от работы, узнать что-то новое в процессе её реализации.***
+## Purpose of the Project:
+1. Create Project layout using provided template;
+2. Learn how to use media queries for creation of adaptive web-site;
+3. ***Enjoy the work, learn something new during project creation.***
 
-### Обзор Проекта
-В проекте используются ранее изученые темы и технологии:
-- БЭМ;
-- псевдоклассы;
-- Флексбокс;
-- Гриды;
-- семантические теги;
-и т.д.
+### Techs
+- BEM;
+- CSS preudo-classes;
+- Flexbox;
+- Grid-layout;
+- semantic tags.
 
-Использованы медиазапросы, благодаря чему Проект адаптируется под четыре основных разрешения экрана:
+Used media queries in order to implement four display sizes:
 - 1280px;
 - 1024px;
 - 768px;
 - 320px.
 
-#### Итог проекта
+#### Project result
 
-Итоговый вариант проекта можно посмотреть по ссылке:
+Final result of the Project can be viewed at the following address:
 https://antropovag.github.io/russian-travel/
-
-Благодарю за внимание!
